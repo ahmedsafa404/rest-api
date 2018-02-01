@@ -8,7 +8,7 @@ class API
 	{
 		try
 		{
-			return $this->connect = new PDO("mysql:host=localhost;dbname=askme","root","safa");
+			return $this->connect = new PDO("mysql:host=localhost;dbname={Database Name}","{User Name}","{Password}");
 		}
 		catch(PDOException $e)
 		{
